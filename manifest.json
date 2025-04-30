@@ -1,24 +1,24 @@
 {
   "format_version": 2,
   "header": {
-    "name": "§6Industrial§7 Backend",
+    "name": "§6Industrial§7 AntiCheat",
     "description": "§7By Zixzar",
-    "uuid": "07ad073a-6e5c-4128-a034-253dff941c95",
-    "version": [6, 2, 4],
+    "uuid": "9d89c2f5-ce08-4a8f-b841-a60de8b0b616",
+    "version": [0, 0, 1],
     "min_engine_version": [1, 19, 50]
   },
   "modules": [
     {
       "type": "data",
-      "uuid": "329ab6d7-ecf4-492f-b8ec-80991341b101",
+      "uuid": "1a93ad7e-46a8-47fc-87eb-18331c7e3c99",
       "version": [1, 0, 0]
     },
     {
       "type": "script",
       "language": "javascript",
-      "uuid": "381a3ecf-311c-4d0e-9b6a-40135ca7ff08",
+      "uuid": "5052bdee-8b10-48cf-97e9-5a858b3ea578",
       "version": [1, 0, 0],
-      "entry": "scripts/Management/start/index.js"
+      "entry": "scripts/Management/index/start.js"
     }
   ],
   "dependencies": [
